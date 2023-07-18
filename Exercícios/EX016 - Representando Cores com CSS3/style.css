@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+body{
+    background-image: linear-gradient(to right, #042940, #005C53);
+}    
+main{
+    background-color: #DBF227;
+    border-radius: 5px; /*arredondamento das bordas*/
+    box-shadow: 10px 10px 50px -10px black; /*sombra atras do main, o primeiro campo é: Quando ela vai para o lado , o segundo campo é: Quanto vai para baixo  , o terceiro campo é: O quanto vai espalhar, o Quarto campo é: Transparencia */
+    width: 600px; /*largura da borda branca lateral */
+    padding: 10px; /*largura da borda branca superior e inferior */
+    margin: auto; /* Sempre irá centralizar o conteúdo independente da tela*/
+}
+
+h1{
+    color: #042940;
+    text-align: center;
+    text-shadow: 1px 1px 2px  rgba(0, 0, 0, 0.589);
+
+}
+
+h2{
+    color: #042940;
+    
+
+}
+
+p{
+    color: #042940;
+    text-align: justify;
+}    
+
+    
